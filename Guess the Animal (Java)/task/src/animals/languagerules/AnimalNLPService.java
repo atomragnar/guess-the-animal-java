@@ -132,14 +132,6 @@ public class AnimalNLPService {
                 Helper method for formatting statements and questions
          */
 
-       /* private static String replace(String target, Map<Pattern, String> patternToReplacements) {
-            return patternToReplacements.entrySet().stream()
-                    .filter(entry -> entry.getKey().matcher(target).find())
-                    .map(entry -> getReplacement.apply(REPLACE_PRONOUN.apply(target), entry.getKey().pattern(), entry.getValue()))
-                    .findFirst()
-                    .orElse(target);
-        }*/
-
         private static String replace(String target, Map<Pattern, String> patternStringMap) {
             Optional<Map.Entry<Pattern, String>> entry = patternStringMap.entrySet().stream()
                     .filter(e -> e.getKey().matcher(target).find())
