@@ -18,9 +18,6 @@ import static animals.languagerules.AnimalNLPService.StringFormatter.TREE_STATS;
 
 public class AnimalFactTree {
 
-    // helper method for printing the distinguishing fact
-    // helper method for printing the question in the node
-
     Node root;
     Node current;
 
