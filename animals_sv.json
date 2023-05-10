@@ -1,0 +1,35 @@
+{
+  "id" : "ae1d92a4-8d64-4582-942b-f814a1efb58d",
+  "label" : "ROOT",
+  "data" : "it has a long neck",
+  "leftChild" : {
+    "id" : "98d29b37-5755-4c87-80b8-ea625a55a159",
+    "label" : "LEFT_CHILD",
+    "data" : "it has a shell",
+    "leftChild" : {
+      "id" : "180f1da9-30e0-4872-8b69-73ce44f2c7bb",
+      "label" : "LEFT_CHILD",
+      "data" : "it has wings",
+      "leftChild" : {
+        "id" : "2c0b467c-8352-4886-a550-422a74f247cb",
+        "label" : "LEFT_CHILD",
+        "data" : "dog"
+      },
+      "rightChild" : {
+        "id" : "372ca3eb-d05e-4d0c-a63b-1d5a52300f56",
+        "label" : "RIGHT_CHILD",
+        "data" : "bird"
+      }
+    },
+    "rightChild" : {
+      "id" : "a7926904-880e-43d9-968e-7957660d508a",
+      "label" : "RIGHT_CHILD",
+      "data" : "turtle"
+    }
+  },
+  "rightChild" : {
+    "id" : "09402fc3-6172-4455-8e04-9830fc56d43f",
+    "label" : "RIGHT_CHILD",
+    "data" : "giraffe"
+  }
+}
