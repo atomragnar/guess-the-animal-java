@@ -77,16 +77,12 @@ public class App extends TextView implements Runnable {
 
         loadTree();
 
-
-
         if (treeState == TreeState.EMPTY) {
             startWithEmptyTree();
             out(getString("welcome") + "\n");
         } else {
             out(getString("welcome") + "\n");
         }
-
-        // TODO add check if the user has a preloaded tree or not.
 
         menu
                 .add(MenuAction.GUESSING_GAME, menuPrompt(MenuAction.GUESSING_GAME),new Game(tree))
